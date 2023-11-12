@@ -1,0 +1,73 @@
+.stz-cpw-step-body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 95%;
+}
+
+.stz-cpw-step {
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #959595e8;
+    border: 1px solid #767176c4;
+    cursor: pointer;
+}
+
+.stz-cpw-hr {
+    width: 100%;
+    height: 3px;
+    background-color: #e8e8e8e8;
+}
+
+.stz-cpw-step-item {
+    display: none;
+}
+
+.stz-cpw-step-item-active {
+    display: block;
+}
+
+.stz-cpw-step-active {
+    background: #24aa16;
+    color: #fff;
+    border: none;
+}
+
+.cpw-rotate-widht {
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+.cpw-rotate-length {
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+
+.cpw-dimensions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpw-dimensions>div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #e8e8e8;
+    border-radius: 0.5rem;
+}
+
+.cpw-dimensions>div:nth-child(2)>input {
+    border: none;
+    width: 150px;
+}
+
+.cpw-dimensions>div:nth-child(2)>span {
+    margin: 10px;
+}

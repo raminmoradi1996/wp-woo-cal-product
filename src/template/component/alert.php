@@ -1,0 +1,1 @@
+<div <?php echo $param['attr-body-alert'] ?>><small <?php echo $param['attr-text-alert'] ?>></small></div>

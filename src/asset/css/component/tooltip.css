@@ -1,0 +1,29 @@
+.stz-tooltip-body {
+    display: none;
+    margin-right: 10px;
+}
+
+.stz-tooltip-text {
+    color: white;
+    background-color: black;
+    padding: 6px;
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    z-index: 99;
+}
+
+.stz-tooltip-arrow {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    transform: translate(0, 4px);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    z-index: 9;
+}
+
+.stz-tooltip-icon:hover+.stz-tooltip-body {
+    display: block;
+}

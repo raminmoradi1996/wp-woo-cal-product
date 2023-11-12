@@ -1,0 +1,22 @@
+.table-id th,
+.table-id td {
+    text-align: center;
+}
+
+.table-id tr:nth-child(even) {
+    background-color: #a7acac;
+}
+
+.pagination li:hover {
+    cursor: pointer;
+}
+
+.table-id tbody tr {
+    display: none;
+}
+
+.table-pagination-li>li {
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
